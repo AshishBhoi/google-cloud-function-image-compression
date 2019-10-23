@@ -1,0 +1,18 @@
+{
+  "name": "cloud-function",
+  "version": "0.0.1",
+  "description": "Downsize image files to thumbnails stored to GCS",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Ashish Kumar Bhoi <ashish.bhoi12@gmail.com>",
+  "dependencies": {
+    "@google-cloud/storage": "1.5.1",
+    "fast-crc32c": "1.0.4",
+    "imagemagick-stream": "4.1.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4.3.2"
+  }
+}
